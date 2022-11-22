@@ -24,3 +24,11 @@ C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\x86\Microsoft.Cog
 C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
 C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
 C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\Debug\Narrador-Texto.csproj.CopyComplete
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Security.AccessControl.dll
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Security.Permissions.dll
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Security.Principal.Windows.dll
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Security.AccessControl.xml
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Security.Permissions.xml
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\Debug\System.Security.Principal.Windows.xml

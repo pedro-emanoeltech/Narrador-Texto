@@ -1,16 +1,16 @@
 ﻿using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 using System;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Media;
+using System.Windows.Forms;
+using System.Configuration;
 
 namespace Narrador_Texto
 {
     public partial class FormNarrar : Form
     {
         SoundPlayer _soundPlayer { get; set; } 
-        public string sourceAudio { get; set; } = @"C:\Repository\AudioProjetoNarradorTexto\fala.wav";
+        public string sourceAudio { get; set; } = ConfigurationManager.AppSettings["caminhoSalvarAudio"].ToString();
         public FormNarrar()
         {
             InitializeComponent();
@@ -32,7 +32,7 @@ namespace Narrador_Texto
 
         }
 
-        public async void ExecutarNarracaoButton_Click(object sender, EventArgs e)
+        public void ExecutarNarracaoButton_Click(object sender, EventArgs e)
         {
             ConvertendoTextoProgressBar.Value = 0;
             if (string.IsNullOrEmpty(ConteudoNarrarTextBox.Text.ToString()))
