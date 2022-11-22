@@ -38,6 +38,7 @@
             this.ConvertendoTextoProgressBar = new System.Windows.Forms.ProgressBar();
             this.label3 = new System.Windows.Forms.Label();
             this.timerProgressBar = new System.Windows.Forms.Timer(this.components);
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ExecutarNarracaoButton
@@ -57,6 +58,7 @@
             this.ConteudoNarrarTextBox.Name = "ConteudoNarrarTextBox";
             this.ConteudoNarrarTextBox.Size = new System.Drawing.Size(718, 312);
             this.ConteudoNarrarTextBox.TabIndex = 1;
+            this.ConteudoNarrarTextBox.TextChanged += new System.EventHandler(this.ConteudoNarrarTextBox_TextChanged);
             // 
             // label1
             // 
@@ -120,13 +122,24 @@
             // 
             // timerProgressBar
             // 
+            this.timerProgressBar.Interval = 300;
             this.timerProgressBar.Tick += new System.EventHandler(this.timerProgressBar_Tick);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(624, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Linhas:";
             // 
             // FormNarrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 428);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ConvertendoTextoProgressBar);
             this.Controls.Add(this.PararNarracaobutton);
@@ -154,6 +167,7 @@
         private System.Windows.Forms.ProgressBar ConvertendoTextoProgressBar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timerProgressBar;
+        private System.Windows.Forms.Label label4;
     }
 }
 
