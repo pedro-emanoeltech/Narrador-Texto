@@ -1,0 +1,11 @@
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador-Texto.csproj.AssemblyReference.cache
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador-Texto.csproj.SuggestedBindingRedirects.cache
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador_Texto.FormNarrar.resources
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador_Texto.Properties.Resources.resources
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador-Texto.csproj.GenerateResource.cache
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador-Texto.csproj.CoreCompileInputs.cache
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\ARM64\Debug\Narrador-Texto.exe.config
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\ARM64\Debug\Narrador-Texto.exe
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\bin\ARM64\Debug\Narrador-Texto.pdb
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador-Texto.exe
+C:\Repository\Services\Narrador-Texto\Narrador-Texto\obj\ARM64\Debug\Narrador-Texto.pdb
